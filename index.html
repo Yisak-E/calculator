@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculater</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+            <H1>Calculater 101 template</H1>    
+        </nav>
+      </header> 
+    <div id="cal_box">
+    <div id="show_result">
+        <input type="text" value="0" id="display_input">
+    </div>
+    <div id="btns">
+        
+        <button  id="num_1" class="nums">1</button><button  id="num_2" class="nums">2</button><button  id="num_3" class="nums">3</button><br>
+        <button  id="num_4" class="nums">4</button><button  id="num_5" class="nums">5</button><button  id="num_6" class="nums">6</button><br>
+        <button  id="num_7" class="nums">7</button><button  id="num_8" class="nums">8</button><button  id="num_9" class="nums">9</button><br>
+        <button  id="num_+"class="nums">+</button class="nums"><button  id="num_0" class="nums">0</button><button  id="num_-" class="nums">-</button><br>
+        <button  id="num_*" class="simp">*</button><button  id="num_/" class="simp">/</button><button  id="num_."class="simp">.</button><button  id="num_clr" class="simp">clear</button>
+    </div>
+    </div>
+    <script>
+        $('#num_1').hover(function(){
+            $('#num_1').css('background-color', 'gray');
+        });
+    </script>
+    </body>
+</html>
